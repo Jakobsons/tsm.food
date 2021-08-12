@@ -6,4 +6,4 @@
 	require system.'router.php';
 
 	$router = new Route;
-	$router->getRoute();
+	echo $router->getRoute();
